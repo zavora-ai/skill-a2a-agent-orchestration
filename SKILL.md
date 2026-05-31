@@ -1,11 +1,11 @@
 ---
 name: a2a-agent-orchestration
 description: Orchestrate remote AI agents via A2A protocol — discover agent cards, dispatch tasks, stream results, cancel tasks, and manage push notifications. Use when delegating work to remote agents, checking agent capabilities, coordinating multi-agent workflows, or monitoring task progress.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-a2a server connected.
 allowed-tools: [fetch_agent_card, validate_agent_card, list_agents, send_task, send_task_streaming, get_task, list_tasks, cancel_task, subscribe_events, manage_push_notifications]
-tags: [infrastructure, multi-agent, orchestration, a2a, delegation]
 metadata:
+  category: platform
   author: Zavora AI
   mcp-server: mcp-a2a
   success-criteria:
